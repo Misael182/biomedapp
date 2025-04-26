@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Biomed Engenharia",
+    "slug": "biomedapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "platforms": ["android", "ios", "web"],
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "web": {
+      "favicon": "./assets/logo.png"
+    },
+    "android": {
+      "package": "com.biomed.biomedapp",
+      "permissions": [],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.biomed.biomedapp"
+    },
+    "sdkVersion": "48.0.0"
+  }
+}
